@@ -98,6 +98,7 @@ h3.sidebar-title {
 img.bio-pic {
 	float: left; 
 	margin: 0 15px 15px 0;
+	max-width: 200px;
 }
 
 .wrapper{
@@ -128,9 +129,29 @@ li.portfolio-item {
 	width: 275px;
 	height: 206px;
 	position: relative;
-	background-image: url('http://lorempixel.com/275/206');
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin-bottom: 40px;
+}
+
+li.hangman {
+	background-image: url('../images/port1.jpg');
+}
+
+li.rpg {
+		background-image: url('../images/port2.jpg');
+}
+
+li.trivia {
+		background-image: url('../images/port3.jpg');
+}
+
+li.widget {
+		background-image: url('../images/port4.jpg');
+}
+
+li.rps {
+		background-image: url('../images/port5.jpg');
 }
 
 li.portfolio-item:nth-child(odd) {
