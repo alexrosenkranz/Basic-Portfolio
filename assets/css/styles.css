@@ -208,12 +208,16 @@ input[type="text"], input[type="email"] {
 	margin: 4px 0 10px 0;
 	height: 30px;
 	border: 1px solid #ddd;
+	font-size: 15px;
+	padding: 4px 8px;
 }
 
 textarea {
 	width: 100%;
 	margin-top: 4px;
 	border: 1px solid #ddd;
+	font-size: 15px;
+	padding: 4px 8px;
 }
 
 input[type="submit"] {
