@@ -216,6 +216,7 @@ input[type="submit"]:hover {
 	background: #fff; 
 	padding: 30px;
 	margin-bottom: 200px;
+	border: 1px solid #dddddd;
 }
 
 #right-column {
@@ -223,6 +224,7 @@ input[type="submit"]:hover {
 	background: #fff;
 	width: 270px;
 	padding: 30px;
+	border: 1px solid #dddddd;
 }
 
 
