@@ -105,9 +105,6 @@ img.bio-pic {
 	margin: 0 auto; 
 }
 
-.content {
-	min-height: 100%;
-}
 
 ul.social-icons {
 
@@ -126,6 +123,72 @@ ul.social-icons li.icon:nth-child(3n) a img {
 	margin-right: 0px;
 } 
 
+li.portfolio-item {
+	display: inline-block;
+	width: 275px;
+	height: 206px;
+	position: relative;
+	background-image: url('http://lorempixel.com/275/206');
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+
+li.portfolio-item:nth-child(odd) {
+	float: left;
+}
+
+li.portfolio-item:nth-child(even) {
+	float: right;
+}
+
+h3.portfolio-item-title {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	background: #4aaaa5;
+	color: #fff;
+	bottom: 15px;
+	padding: 12px 0;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	margin: 4px 0 10px 0;
+	height: 30px;
+	border: 1px solid #ddd;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 4px;
+	border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+	background: #4aaaa5;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+	-webkit-transition:  0.5s linear;
+    -moz-transition:  0.5s linear;
+    -ms-transition:  0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+input[type="submit"]:hover {
+	background: #ddd;
+	color: #4aaaa5;
+}
+
 #left-column {
 	width: 650px; 
 	float: left; 
@@ -141,35 +204,8 @@ ul.social-icons li.icon:nth-child(3n) a img {
 	padding: 30px;
 }
 
-ul#portfolio li.portfolio-item {
-	display: inline-block;
-	width: 275px;
-	height: 206px;
-	position: relative;
-	background-image: url('http://lorempixel.com/275/206');
-	background-repeat: no-repeat;
-	margin-bottom: 40px;
-}
 
-ul#portfolio li.portfolio-item:nth-child(odd) {
-	float: left;
-}
 
-ul#portfolio li.portfolio-item:nth-child(even) {
-	float: right;
-}
-
-h3.portfolio-item-title {
-	position: absolute;
-	width: 100%;
-	text-align: center;
-	background: #4aaaa5;
-	color: #fff;
-	bottom: 15px;
-	padding: 12px 0;
-	font-weight: 400;
-	font-size: 22px;
-}
 
 
 

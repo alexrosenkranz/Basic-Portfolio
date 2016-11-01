@@ -9,7 +9,7 @@
 <body>
 	<header>
 		<div class="wrapper">
-		<h1 class="title">Alex Rosenkranz</h1>
+		<a href="index.html"><h1 class="title">Alex Rosenkranz</h1></a>
 		
 		<nav>
 			<ul>
@@ -21,14 +21,26 @@
 		</div>
 	</header>
 	
-	<div class="wrapper content">
+	<div class="wrapper">
 		<div id="left-column">
 			<h2 class="page-title">Contact Me</h2>
-			<img class="bio-pic" src="http://lorempixel.com/200/200" alt="bio pic"/>
+			
+			<form action="" method="post">
+				
+				<label for="name">Name </label>
+				<input type="text" id="text" name="name">
+				
+				<label for="email">Email </label>
+				<input type="email" name="email" id="email">
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, corporis natus illo necessitatibus, beatae inventore debitis quia. Corporis impedit aut sequi dolore rerum, obcaecati odit culpa tenetur explicabo. Mollitia, repellat!</p>
+				<label for="message">Leave a Message </label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptatem sequi, commodi, in et quod molestias sapiente explicabo aspernatur quia provident minus, quam tempore repudiandae doloribus impedit enim. Aliquid, sequi.</p>
+				<input type="submit" class="submit-button" value="Submit">
+
+			</form>
+
+
 		</div>
 
 		<aside id="right-column">
